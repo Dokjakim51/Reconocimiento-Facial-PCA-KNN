@@ -1,0 +1,23 @@
+RECONOCIMIENTO FACIAL PCA + KNN | GUIA RAPIDA
+==========================================
+
+Esta version de GitHub NO contiene fotografias de personas.
+
+1. Abre la carpeta del proyecto en VS Code.
+2. En PowerShell (solo la primera vez):
+   py -3.12 -m venv .venv
+   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+3. Selecciona .venv como interprete de Python en VS Code.
+4. Pulsa ▶ Ejecutar en main.py.
+5. Sin fotos: puedes probar deteccion de caras con la camara.
+6. Para entrenar: agrega fotos DIFERENTES y autorizadas en:
+   datos/personas/Persona_A/ y datos/personas/Persona_B/
+   Minimo 3 por persona; mejor 8 a 15 por persona.
+7. Para evaluar: coloca OTRAS fotos en:
+   datos/prueba/Persona_A/ y datos/prueba/Persona_B/
+8. Vuelve a ejecutar main.py. Pulsa "Reconocer (fotos locales)"
+   para comprobar coincidencias experimentales con la camara.
+
+Las fotos y los resultados son PRIVADOS. NO los subas a GitHub.
+No uses la app para autenticacion o decisiones importantes.
+Consulta README.md para instrucciones completas.
